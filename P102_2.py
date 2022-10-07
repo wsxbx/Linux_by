@@ -10,7 +10,6 @@ app. attributes('-topmost', 1)
 app. geometry('200x100+100+100')
 app.config(background = "pink")
 
-
 labelDateTime = tkinter. Label( app, width=130)
 labelDateTime. pack(fill=tkinter . BOTH, expand=tkinter. YES)
 labelDateTime. configure(bg = 'gray')
