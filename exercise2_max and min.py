@@ -16,5 +16,6 @@ while True:
 for i in nums:
     imax = int(max(nums))
     imin = int(min(nums))
+    
 print(imax)
 print(imin)
