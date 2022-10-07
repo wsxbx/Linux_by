@@ -8,7 +8,6 @@ def client():
     BUFLEN = 1024
 
     dataSocket = socket(AF_INET, SOCK_STREAM)
-
     dataSocket.connect((IP, SERVER_PORT))
 
     while True:
