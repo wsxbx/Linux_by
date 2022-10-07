@@ -21,7 +21,6 @@ def server():
 
 		if not receved:
 			break
-
 		info = receved.decode()
 		print(f' յ  Է     Ϣ  {info}')
 
