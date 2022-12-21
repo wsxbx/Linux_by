@@ -99,7 +99,7 @@ print('请在十秒内记住以下内容：')
 # 显示妖怪信息
 print(notification,end='')
 print('')
-time.sleep(2)
+time.sleep(10)
 
 for i in range(20):
     print('')
