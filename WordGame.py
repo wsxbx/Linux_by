@@ -38,7 +38,6 @@ class Archer(Warrior):
         else:
             print('未知类型的妖怪！！！')
 
-
 # 斧头兵，战士的子类
 class Axeman(Warrior):
     typeName = '斧头兵'
@@ -108,7 +107,7 @@ for i in range(20):
 
 #2、雇佣战士
 
-print('假如你有1000灵石，请根据你记忆的妖怪种类和数量，选择雇佣弓箭兵和斧头兵的个数，每雇佣一个士兵，给他起一个名字。')
+print('现有1000灵石，请根据你记忆的妖怪种类和数量，选择雇佣弓箭兵和斧头兵的个数，每雇佣一个士兵，给他起一个名字。')
 stoneNumber=1000
 ArcherNumber=int(input('请输入需要雇佣的弓箭兵的数量：'))
 for a in range(ArcherNumber):
@@ -143,7 +142,7 @@ for n in range(7):
             w=input('请选择需要派出的战士名字：')
             print('战斗中...')
             if monster.strength=0:
-                print('妖怪已死亡，恭喜你顺利通过森林！')
+                print('妖怪已死亡，恭喜你顺利通过该森林！')
                 break
                 #用灵石疗伤
             def healing(self, stoneCount):
@@ -153,5 +152,5 @@ for n in range(7):
             self.strength += stoneCount
             if self.strength > self.maxStrength:
                 self.strength = self.maxStrength
-print('恭喜通关！')
+print('恭喜你通过所有森林，已通关！')
 print(stoneNumber) #剩余灵石数量
